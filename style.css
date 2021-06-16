@@ -1,0 +1,164 @@
+/* ------------------------------------------------HEADER----------------------------------------------------*/
+body
+{
+    margin: auto;
+}
+header{
+    background-color:	#3b5998;
+    padding-left:58px;
+    position: relative;
+    display:inline-block;
+    width:100%;
+    margin:auto;
+}
+.logo
+{
+    color:white;
+    font-size: 50px;
+    font-family: Helvetica;
+    display:inline-block;
+    padding-top: 25px;
+}
+.login
+{
+    
+    float: right;
+    color: white;
+    font-family: Helvetica;
+    font-size: 13px;
+    width:45%;
+ 
+}
+.box1
+{
+    width:30%;
+    display:inline-block;
+    margin-top: 12px;
+}
+.box2
+{
+    width:30%;
+    padding-left: 10px;
+    float: none;
+    display:inline-block;
+    position: relative;
+    top:-4px;
+}
+.box2 a{
+    text-decoration: none;
+    color: white;
+}
+.firstbutton
+{
+    width:10%;
+    display: inline-block;
+    position: relative;
+    top:-20px;
+    left:10px;
+}
+.firstbutton button
+{
+    background-color:#496bb6;
+    color:white;
+    box-shadow:1px 1px #6586ce;
+}
+/* -------------------------------------------BODY----------------------------------------------------------*/
+section
+{
+    background-color: #dfe3ee;
+    width:100%;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*----------------------------------------LEFT SECTION------------------------------------------------------*/
+section .left
+{
+    width:40%;
+    float: left;
+    margin: 5%;
+    color:rgba(0, 0, 0, 0.884);
+}
+.left h1
+{
+    font-size:30px;
+}
+.left i
+{
+    margin:3% 3% 3% 0%;
+    color: #8b9dc3;
+    position: relative;
+    top:8px;
+}
+.left span
+{
+    font-weight: bold;
+    font-size: large;
+
+}
+/*----------------------------------------------RIGHT SECTION-----------------------------------------------------*/
+section .right
+{
+    width:50%;
+    float: left;
+    padding-left:7%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:larger;
+    color:rgba(0, 0, 0, 0.884);
+}
+
+.right h1
+{
+    padding-top: 3%;
+    font-size:40px;
+    line-height: 25px;
+}
+.right input
+{
+    margin:1% 1% 1% 0%;
+    padding:1.5%;
+    font-size: large;
+    border: 0.7px solid #8b9dc3;
+    border-radius: 6px;
+}
+.right .other input
+{
+    width:85%;
+}
+.birthday select
+{
+    margin:-3px;
+    border-radius:0px;
+    padding:1%;
+    margin-bottom: 1%;
+}
+.right-text
+{
+    text-decoration: none;
+    font-size:small;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    left:1%;
+}
+a{
+    color:#304a83;
+    text-decoration: none;
+}
+.gender
+{
+    font-size: 15px;
+}
+/*-----------------------------------------------------------FOOTER------------------------------------------------------*/
+.policy
+{
+    color: rgb(65, 65, 65);
+    font-size: 12px;
+}
+.submit
+{
+    background-color: rgb(61, 145, 61);
+    color: white;
+    width: 50%;
+    font-size: larger;
+    border: 1px solid rgba(0, 0, 0, 0.356);
+}
